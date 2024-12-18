@@ -5,3 +5,4 @@ var SOMA = []
 for(var i=0; i < A.length; i++){
     SOMA[i] = A[i] + B[i]
 }
+
