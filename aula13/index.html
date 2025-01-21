@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="suprema">
+        <h1>CALCULADORA</h1>
+        <hr>
+        <fieldset>
+            <legend>VALORES DO CÁLCULO</legend>
+            <label>NÚMERO 1</label>
+            <input id="n1" type="number">
+            <label>NÚMERO 2</label>
+            <input id="n2" type="number">
+        </fieldset>
+
+        <fieldset>
+            <legend>OPERAÇÕES</legend>
+            <span><input name="op" type="radio"> ADIÇÃO</span>
+            <span><input name="op" type="radio"> SUBTRAÇÃO</span>
+            <span><input name="op" type="radio"> MULTIPLICAÇÃO</span>
+            <span><input name="op" type="radio"> DIVISÃO</span>
+        </fieldset>
+        
+        <button onclick="calcular()">CALCULAR</button>
+
+        <fieldset>
+            <legend>RESULTADO</legend>
+            <h1 id="resultado">...</h1>
+        </fieldset>
+
+    </div>
+</body>
+</html>
